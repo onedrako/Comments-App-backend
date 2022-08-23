@@ -22,7 +22,7 @@ app.use(express.json())
 //     }
 //   }
 // }
-app.use(cors({ origin: 'local' }))
+app.use(cors({ origin: '*' }))
 
 // require('./utils/auth')
 // app.use(passport.initialize())
