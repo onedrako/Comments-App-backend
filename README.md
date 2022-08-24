@@ -10,11 +10,17 @@ To get all files and dependencies:
 2) npm i 
 3) add a .env file
 4) On .env file add the next env variables
+
   PORT=3000
+  
   DATABASE_URL='postgres://user:root@localhost:5432/my_db'
+  
   DB_PASSWORD=root
+  
   DB_HOST=localhost
+  
   DB_NAME=my_db
+  
   DB_PORT=5432
  
 
