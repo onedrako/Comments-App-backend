@@ -1,7 +1,8 @@
-const { User, UserSchema } = require('./users.model')
+// const { User, UserSchema } = require('./users.model')
+const { Comment, CommentSchema } = require('./comments.model')
 
 const setUpModels = (sequelize) => {
-  User.init(UserSchema, User.config(sequelize))
+  Comment.init(CommentSchema, Comment.config(sequelize))
 }
 
 module.exports = setUpModels
