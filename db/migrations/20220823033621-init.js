@@ -15,7 +15,7 @@ module.exports = {
       },
       comment: {
         allowNull: false,
-        type: Sequelize.DataTypes.STRING
+        type: Sequelize.DataTypes.TEXT
       },
       createdAt: {
         allowNull: false,

@@ -15,7 +15,7 @@ const CommentSchema = {
   },
   comment: {
     allowNull: false,
-    type: DataTypes.STRING
+    type: DataTypes.TEXT('medium')
   },
   createdAt: {
     allowNull: false,
